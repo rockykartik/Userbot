@@ -28,10 +28,10 @@ if os.path.exists("Internal"):
    load_dotenv("Internal")
 
 
-API_ID = int(getenv("API_ID", "21767752"))
-API_HASH = getenv("API_HASH", "8817c95b20fca899462336cdf36dd958")
+API_ID = int(getenv("API_ID", "25609334"))
+API_HASH = getenv("API_HASH", "ad0ff353206ea1ebce1ab8bfca9f3f7b")
 BOT_TOKEN = getenv("BOT_TOKEN", "6744138580:AAEr9_L9tu4T1xES_NCaHuf1RQP8Wn__LXc")
-STRING_SESSION = getenv("STRING_SESSION", "BQFMJkgAXZNBAJ7MvFrB-P1CKnX5C3KQNYCwHxDI8GnDoAa7EveN_0he8TcHeIO7lYgdaBIaqjQmTbB0Q1rK0QTvniXzeoi3DiHGaukyvEKBVQSt5LD9UZJT8_9gFBZBww5bbhYdLswzI_PXgc6KXRhJThDKwYhuMxgzEI5Tqbt0Lm19PPHDv0QN0yIb8LpGCTXL5_gmgVPj2B2wjk4kslaPWSqAExfY5t0iLOyVd-bn8OfJy4CSST0mPFvKr25w81kBiWf2Jurp6wvmAh17BksgiKP4VGjcUKEwO_VXc1twx7yvCoyyn84oLUi8HFas1FKohAhhbSpTV_9KTmxCt7ufaiMbzQAAAAE5zUGcAA")
+STRING_SESSION = getenv("STRING_SESSION", "BQFMJkgAdw6SBlZlj3QDdznHidu2hsAvdKDZv0cf8GtaBq1XGU9U-SZKwgQH1gLz7goiTHUwKK-y0hWCQBAvl9-mRJder-_56IjyjYEwiajeaO6BZmGSFhYH5mVNVAM826LmVTXC2cpWj2goFbtTPW_h6PzVn_vX53RRLUcc2vEEG7g22i1ahur6lFjs5A8_rDngRcYQ-sYdoUuosboNtqASUAkQApX7auM_yHjvijorj0oo1GZt3dBTdsWvwKdT8fVbOYGK6f4pnjeUxFwgE82gSQjfuPhjC7vwUdFdw2keQYDoR-nJYcG8eZD8qMBPdvc5_2Lcz7FXfcy4nDTiPNugi17jWQAAAAFC8M17AA")
 MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://Chiku12:Chiku12@arman.wsumgkn.mongodb.net/?retryWrites=true&w=majority")
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001764180763"))
 
